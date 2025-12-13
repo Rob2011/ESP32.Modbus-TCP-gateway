@@ -2,7 +2,7 @@ Project "ESP32 Modbus TCP gateway" is to connect Modbus devices like energy mete
 or Solar Inverters to network devices (home servers) over TCP/IP.
 
 **Software:**
-- Arduino IDE code for Espessife devices: xxx
+- Arduino IDE code for Espessife devices (in this repositorie)
 
 **Hardware:**
 - ESP32 C dev. board (or similar)
