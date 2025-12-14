@@ -1,7 +1,8 @@
-DIY Project "ESP32 Modbus TCP gateway" is to connect Modbus devices like energy meters 
+DIY Project "ESP32 Modbus TCP gateway" is to connect Modbus devices like Energy Meters 
 or Solar Inverters to network devices (home servers) over TCP/IP.
 
-
+<!-- Relative path (recommended when image is in the same repo) -->
+![Schema](images/schema.png)
 
 **Software:**
 - Arduino IDE code for Espessife devices (in this repositorie)
@@ -12,10 +13,10 @@ or Solar Inverters to network devices (home servers) over TCP/IP.
 
 **How to build:**
 1. connect the 4 points from MAX438 board to ESP32 hardware according the drawing.
-   Vcc - Vcc
-   Gnd - Gnd
-   Tx - Tx (pin 17)
-   Rx - Rx (pin 16)
+- Vcc - Vcc
+- Gnd - Gnd
+- Tx - Tx (pin 17)
+- Rx - Rx (pin 16)
 
 2. Connect A and B from the modbus device 
    (ground or resistor not required for short distance cable)
