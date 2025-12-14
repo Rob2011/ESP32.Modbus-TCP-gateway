@@ -37,7 +37,7 @@ or Solar Inverters to network devices (home servers) over TCP/IP.
 
 **How to build:**
 1. connect the 4 points from MAX438 board to ESP32 hardware according the drawing.
-- Vcc - Vcc
+- Vcc - Vin
 - Gnd - Gnd
 - Tx - Tx (pin 17)
 - Rx - Rx (pin 16)
