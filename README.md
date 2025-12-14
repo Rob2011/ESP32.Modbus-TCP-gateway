@@ -1,15 +1,28 @@
 DIY Project "ESP32 Modbus TCP gateway" is to connect Modbus devices like Energy Meters 
 or Solar Inverters to network devices (home servers) over TCP/IP.
 
-<!-- Relative path (recommended when image is in the same repo) -->
-![Schema](images/schema.png)
-
 **Software:**
 - Arduino IDE code for Espessife devices (in this repositorie)
+
+**Features:**
+- Supported & tested devices (at the moment): Eastron SDM630
+- Start with Access Point for easy configuraion of WiFi settings and connection to own network.
+- Load balancing on dual core CPU (for responsive webportal and uninterrupted modbus communication)
+- Support mNDS for easy to find on local network with "http://modbus.local"
+- Remote firmware update
+- Save settings for easy recovery
+- Configurable multiple Modbus clients
+- Debug page for easy data check
+
+  ![Schema](images/main.png)
+  ![Schema](images/configuration.png)
+  ![Schema](images/debug.png)
 
 **Hardware:**
 - ESP32 C dev. board (or similar)
 - MAX438 board (or similar board for Modbus to serial communication)
+
+![Schema](images/schema.png)
 
 **How to build:**
 1. connect the 4 points from MAX438 board to ESP32 hardware according the drawing.
