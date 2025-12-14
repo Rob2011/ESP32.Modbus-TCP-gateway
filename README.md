@@ -1,4 +1,4 @@
-DIY Project "ESP32 Modbus TCP gateway" is to connect Modbus devices like Energy Meters 
+DIY Project "ESP32 Modbus TCP gateway" to connect Modbus devices like Energy Meters 
 or Solar Inverters to network devices (home servers) over TCP/IP.
 
 **Software:**
