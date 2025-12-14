@@ -5,12 +5,19 @@ or Solar Inverters to network devices (home servers) over TCP/IP.
 - Arduino IDE code for Espessife devices (in this repositorie)
 
 **Features:**
-- Supported & tested devices (at the moment): Eastron SDM630
+- Supported & tested devices (at the moment): **Eastron SDM630**
 - Start with Access Point for easy configuraion of WiFi settings and connection to own network.
+  - Handles all HTTP web server requests (Core 1)
+  - Manages WiFi connection
+  - Serves the web portal
 - Load balancing on dual core CPU (for responsive webportal and uninterrupted modbus communication)
 - Support mNDS for easy to find on local network with "http://modbus.local"
+- Service Discovery - Device advertises both HTTP (port 80) and Modbus TCP (port 502) services
 - Remote firmware update
-- Configurable multiple Modbus clients
+- Configurable multiple Modbus clients (Core 0)
+  - Handles all Modbus RTU communication
+  - Processes Modbus TCP server requests
+  - Polls the RTU device
 - Debug page for easy data check
 - Error Recovery
   - Save settings for easy recovery
