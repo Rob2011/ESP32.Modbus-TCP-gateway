@@ -1,6 +1,6 @@
 # ESP32 Modbus TCP Gateway
 
-A DIY ESP32-based **Modbus TCP ↔ Modbus RTU gateway** that allows Modbus devices such as **energy meters** or **solar inverters** to be accessed by network devices (e.g. home servers, SCADA systems, Home Assistant) over TCP/IP.
+A DIY ESP32-based **Modbus TCP ↔ Modbus RTU gateway** that allows Modbus devices such as **energy meters** or **solar inverters** to be accessed by network devices (e.g. home servers, Homey Pro, SCADA systems, Home Assistant) over TCP/IP.
 
 ---
 
