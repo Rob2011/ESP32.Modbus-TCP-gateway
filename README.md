@@ -59,6 +59,9 @@ GET  /api/test?id=1&addr=0    - Test Modbus connection
 - **Power Supply**: 5V USB or external power
 - **Modbus RTU Devices**: Any standard Modbus RTU slave device(s)
 
+<p align="center"><img width="800px" alt="Hardware setup" class="recess" src="./images/schema.png" /></p>
+
+
 ### Wiring Diagram
 ```
 ESP32          RS-485 Module      Modbus Device
